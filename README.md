@@ -1,5 +1,7 @@
 # IIScWebDev
 
+![2024-03-24_20-02](https://github.com/eKeiran/IIScWebDev/assets/34791715/e6197c42-544e-41c0-8da5-d36ea4dc820a)
+
 Round 1 screening test project for CiSTUP @ IISc, Bangalore's Web Dev internship
 
 ## Web Application Setup Guide
