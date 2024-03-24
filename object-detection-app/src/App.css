@@ -1,0 +1,157 @@
+/* App.css */
+.app-container {
+  background-image: url('../public/background_image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  background: linear-gradient(to right, #064dff, #d8f5ff); 
+  padding: 20px 0; 
+  text-align: center;
+  font-size: 24px; 
+  color: white;
+  font-weight: 900;
+  width: 100%;
+  border-radius: 20px; 
+}
+
+.brand {
+  margin: 0;
+}
+
+.content {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.upload-section {
+  width: 700px; 
+  margin-bottom: 5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.upload-section {
+  text-align: center;
+}
+
+.image-section {
+  display: flex;
+  align-items: center;
+}
+
+.original-image-container,
+.processed-image-container {
+  width: 150%; /* Adjust as needed */
+  max-width: 100%; /* Constraint image size */
+  margin: 5px 160px;
+  margin-top: -180px;
+  margin-left: 150px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.original-image,
+.processed-image {
+  max-width: 150%;
+}
+
+.dotted-line {
+  border-left: 3px dashed rgba(64, 0, 255, 0.341); /* Change border-left to border-top */
+  height: 42%; 
+  position: absolute;
+  left: 50%;
+  top: 20%; 
+}
+
+.section-title {
+  margin-bottom: 10px;
+}
+
+.image-box {
+  border: 4px dotted #4eafd0; 
+  border-radius: 10px; 
+  padding: 20px; 
+  background-color: #f0f8ff;
+  text-align: center;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.results-section {
+  margin-top: 4rem;
+}
+.image-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.select-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.select-button:hover {
+  background-color: #357a38;
+}
+
+.upload-button {
+  background-color: #1E90FF;
+  color: white;
+  padding: 20px 30px;
+  border: 2px solid #003cff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 0rem;
+  transition: background-color 0.3s ease;
+  margin-top: 20px; 
+}
+
+.upload-button:hover {
+  background-color: #4169E1;
+}
+
+.results-section {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  font-size: 25px; 
+  margin-left: -2.5rem;
+}
